@@ -35,7 +35,7 @@ export default function Form(props) {
                         <div>{errors.terms}</div> 
                     </div>  
                </div>
-               <label>
+               <label className="name">
                    Name
                    <input 
                     type="text" 
@@ -45,7 +45,7 @@ export default function Form(props) {
                     placeholder="Name Here">
                    </input>
                </label>
-               <label>
+               <label className="email">
                    Email
                    <input 
                     type="email" 
@@ -55,7 +55,7 @@ export default function Form(props) {
                     placeholder="Email Here">
                    </input>
                </label>
-               <label>
+               <label className="password">
                    Password
                    <input 
                     type="password" 
@@ -65,7 +65,7 @@ export default function Form(props) {
                     placeholder="Set Password">
                    </input>
                </label>
-               <label>
+               <label className="terms">
                    I Agree to the Terms of Service
                    <input
                     type="checkbox"
